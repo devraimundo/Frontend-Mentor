@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 
-@media screen and (min-width: 320px) and (max-width: 700px){
+@media screen and (max-width: 700px){
     article{
         min-width: 100%;
         border-radius: 0;
@@ -27,6 +27,10 @@
             width: 100%;
             border-radius: 0;
         }
+
+        aside{
+            padding: 10px 0 30px 20px;
+        }
     }
 }
 
@@ -38,10 +42,6 @@
         
         .conteudo{
             padding: 50px;
-
-            h1{
-                font-size: 3rem;
-            }
         }
         
         img{
