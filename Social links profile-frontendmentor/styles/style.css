@@ -33,10 +33,15 @@ h1, p, a{
 
 body {
     background-color: var(--grey-900);
-    width: 100%;
+
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
     height: 100vh;
-    display: grid;
-    place-items: center;
+    /* display: grid;
+    place-items: center; */
 }
 
 article {
@@ -73,20 +78,20 @@ article {
         a {
             display: block;
             text-decoration: none;
-            text-align: center;
 
             background-color: var(--grey-700);
             color: white;
             width: 100%;
             padding: 16px;
             border-radius: 10px;
+            font-weight: bold;
             
             margin-top: 20px;
 
-            font-weight: bold;
-
             &:hover{
                 background-color: var(--green);
+
+                color: var(--grey-800);
             }
         }
     }

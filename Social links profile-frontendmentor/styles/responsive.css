@@ -1,0 +1,6 @@
+@media (max-width: 426px){
+    article{
+        max-width: 90%;
+        margin: auto;
+    }
+}   

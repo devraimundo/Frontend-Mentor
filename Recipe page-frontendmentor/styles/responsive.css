@@ -19,7 +19,7 @@
             padding: 30px;
 
             h1{
-                font-size: 3rem;
+                font-size: clamp(2rem, 8vw, 3rem);
             }
         }
 
@@ -58,6 +58,7 @@
 
         .conteudo{
             padding: 20px;
+            
             img{
                 width: 100%;
                 margin-bottom: 30px;
