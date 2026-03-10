@@ -15,5 +15,5 @@
 
 <p><a href="https://devraimundo.github.io/Frontend-Mentor/Blog%20preview%20card-frontendmentor/index.html">blog preview card-frontendmentor</a></p>
 
-<p><a href="https://devraimundo.github.io/Frontend-Mentor/Results%20summary%20component-frontendmentor/index.html">blog preview card-frontendmentor</a></p>
+<p><a href="https://devraimundo.github.io/Frontend-Mentor/Results%20summary%20component-frontendmentor/index.html">Results summary component-frontendmentor</a></p>
 <hr>
