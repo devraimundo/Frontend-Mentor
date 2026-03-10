@@ -36,15 +36,16 @@ html{
 
 body{
     background-color: var(--pale-blue);
-    min-height: 100vh;
+    height: 100vh;
     
-    display: grid;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
 main{
     display: flex;
+    flex-flow: row;
 
     background-color: white;
     max-width: 910px;
@@ -54,13 +55,14 @@ main{
         background-image: linear-gradient(var(--light-slate-blue-background), var(--light-royal-blue-background));
         color: white;
         text-align: center;
+
         width: 460px;
         border-radius: 10%;
         
         padding: 30px;
 
-        > h1{
-            font-size: 1.6rem;
+        h1{
+            font-size: min(2rem, 2.4rem);
             color: var(--light-lavender);
         }
 
@@ -70,7 +72,6 @@ main{
         }
 
         .result_score{
-            position: relative;
             margin-top: 30px;
             margin-bottom: 1em;
 
@@ -92,7 +93,7 @@ main{
             margin: 10px 0 50px 0;
 
             h2{
-                font-size: 1.7rem;
+                font-size: 1.6rem;
                 margin-bottom: 1em;
             }
 
@@ -113,7 +114,7 @@ main{
 
         h2{
             font-size: 1.6rem;
-            margin: 40px 0 12px 50px;
+            margin: 40px 0 12px 15%;
 
             color: var(--dark-gray-blue);
         }
@@ -124,7 +125,7 @@ main{
 
             border-radius: 10px;
             padding: 16px;
-            width: 250px;
+            width: 70%;
             margin: 10px auto;
 
             p{
@@ -141,7 +142,7 @@ main{
             text-align: center;
             text-decoration: none;
 
-            width: 250px;
+            width: 70%;
             align-self: center;
             margin-top: 30px;
 
